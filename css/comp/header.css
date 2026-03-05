@@ -1,0 +1,39 @@
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header_list{
+    display: flex;
+    gap: 12px;
+}
+
+    
+
+
+    .header_link a{
+        font-family: 'Roboto';
+        font-weight: medium;
+       
+    
+    }
+    
+    .border__header{
+        border-bottom: 1px solid #E2E8F0;
+        margin-top: 20px;
+    }
+
+.header_link{
+    transition: color .2s linear;
+}
+    .header_link:hover{
+        &:hover {
+                color: #2563EB;
+            }
+    }
+
+
+
+    
