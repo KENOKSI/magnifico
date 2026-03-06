@@ -2,6 +2,8 @@ html {
     box-sizing: border-box;
 }
 
+
+
 *,
 *::before,
 *::after {
@@ -20,8 +22,12 @@ a {
     text-decoration: none;
     color: #0F172A;
 }
-
-
+p{
+    line-height: 1.6;
+}
+h1{
+    line-height: 1.1;
+}
 .wrapper {
     padding: 0 35px;
 }
@@ -49,6 +55,8 @@ img{
 
 .section__hero{
     margin-top: 80px;
+    border-bottom: 1px solid #94A3B8;
+ padding-bottom: 80px;
 }
 
 .hero__block-text{
@@ -98,9 +106,8 @@ i.fa {
 
 i.fa+input {
     padding-left: 40px;
-transition: transform 0.4s ease;
+transition: box-shadow 0.4s ease;
     &:focus{
-        transform: translateX(-10px);
         box-shadow: 0px 0px 20px 0px blue;
     }
 }
@@ -126,15 +133,16 @@ transition: transform 0.4s ease;
  
 .section__enjoi-flex{
  display: flex;
- justify-content: space-around;
+ justify-content: space-between;
  gap: 80px;
+ align-items: center;
  
 }
 
 .enjoi__block-text p{
     color: #475569;
         font-weight: 400;
-        max-width: 500px;
+        max-width: 600px;
         padding-top: 24px;
         padding-bottom: 24px;
 }
@@ -147,10 +155,10 @@ transition: transform 0.4s ease;
 .section__enjoi{
     margin-top: 80px;
     
+    
 }
 .enjoi__block-text{
-    margin-top: 80px;
-    margin-left: 80px;
+  
     
 }
 .section__enjoi img{
@@ -177,6 +185,7 @@ transition: transform 0.4s ease;
     display: flex;
     justify-content: space-between;
     gap: 80px;
+    align-items: center;
 
 }
 
@@ -197,11 +206,8 @@ transition: transform 0.4s ease;
     margin-top: 80px;
 }
 
-.tools__block-text {
-    margin-top: 80px;
-    
 
-}
+
 
 .section__tools img {
     max-width: 100%;
@@ -235,8 +241,8 @@ transition: transform 0.4s ease;
 
 
 .banner-card .conteiner{
-    background-image: url('../../img/Section.png');
-        background-size: cover;
+    background-image: url('../../img/Sectio.png');
+      
         background-position: center;
     
         border-radius: 30px;
@@ -285,7 +291,3 @@ font-family: "Roboto-med", sans-serif;
 
 
 
-.hero__border{
-    border-bottom: 1px solid #E2E8F0;
-    padding-top: 20px;
-}

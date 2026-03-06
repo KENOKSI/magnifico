@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #94A3B8;
+    padding-bottom: 25px;
     
 }
 
@@ -21,8 +23,7 @@
     }
     
     .border__header{
-        border-bottom: 1px solid #E2E8F0;
-        margin-top: 20px;
+      
     }
 
 .header_link{
