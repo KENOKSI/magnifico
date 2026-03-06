@@ -282,3 +282,10 @@ font-family: "Roboto-med", sans-serif;
    text-decoration: underline;
    transform: translateX(5px);
 }
+
+
+
+.hero__border{
+    border-bottom: 1px solid #E2E8F0;
+    padding-top: 20px;
+}
