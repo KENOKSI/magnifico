@@ -67,7 +67,7 @@ img{
 
 .hero__block-text h1 {
     font-family: 'Roboto-b';
-    font-size: 72px;
+    font-size:5.50vw;
 }
 
 .section__hero-flex{
@@ -149,7 +149,7 @@ transition: box-shadow 0.4s ease;
 
 .enjoi__block-text h1 {
     font-family: 'Roboto-b';
-        font-size: 72px;
+        font-size: 5.50vw;
 }
 
 .section__enjoi{
@@ -199,7 +199,7 @@ transition: box-shadow 0.4s ease;
 
 .tools__block-text h1 {
     font-family: 'Roboto-b';
-    font-size: 72px;
+    font-size: 5.50vw;
 }
 
 .section__tools {
@@ -209,11 +209,7 @@ transition: box-shadow 0.4s ease;
 
 
 
-.section__tools img {
-    max-width: 100%;
-    
 
-}
 
 .arrow__flex-inner {
     display: flex;
@@ -435,6 +431,13 @@ i.fa{
 }
 }
 
+
+
+@media (min-width:1000px){
+    h1{
+        font-size: 1px;
+    }
+}
 
 
 
