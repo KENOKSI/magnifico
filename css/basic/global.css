@@ -37,7 +37,7 @@ p {
 
 h1 {
     line-height: 1.1;
-    font-size: 72px;
+    font-size: 56px;
 }
 
 .wrapper {
@@ -57,7 +57,7 @@ img {
 }
 
 
-.hero__block-image {}
+
 
 .section__hero .conteiner {
     max-width: 1280px;
@@ -70,25 +70,25 @@ img {
     padding-bottom: 80px;
 }
 
-.hero__block-text {
+.hero__content {
     max-width: 600px;
     margin-top: 75px;
 }
 
 
-.hero__block-text h1 {
+.hero__title {
     font-family: 'Roboto-b';
     font-size: 72px;
    
 }
 
-.section__hero-flex {
+.hero__inner {
     display: flex;
     gap: 80px;
 }
 
 
-.block-text-inner {
+.block__text__inner {
     display: flex;
     align-items: center;
 
@@ -126,19 +126,19 @@ i.fa+input {
     }
 }
 
-.block-text-inner i {
+.block__text__inner i {
     
     padding-left: 10px;
 
 
 }
 
-.block-text-inner button {
+.block__text__inner button {
     margin-left: 15px;
     ;
 }
 
-.hero__block-text p {
+.hero__text {
     color: #475569;
     font-weight: 400;
     max-width: 500px;
@@ -146,7 +146,7 @@ i.fa+input {
     padding-bottom: 24px;
 }
 
-.section__enjoi-flex {
+.enjoi__inner {
     display: flex;
     justify-content: space-between;
     gap: 80px;
@@ -154,7 +154,7 @@ i.fa+input {
 
 }
 
-.enjoi__block-text p {
+.enjoi__content .enjoi__text {
     color: #475569;
     font-weight: 400;
     max-width: 600px;
@@ -162,7 +162,7 @@ i.fa+input {
    margin-bottom: 24px;
 }
 
-.enjoi__block-text h1 {
+.enjoi__content .enjoi__title {
     font-family: 'Roboto-b';
     font-size: 72px;
     
@@ -174,7 +174,7 @@ i.fa+input {
 
 }
 
-.enjoi__block-text {}
+.enjoi__content {}
 
 .section__enjoi img {
     max-width: 100%;
@@ -182,12 +182,12 @@ i.fa+input {
 
 }
 
-.arrow__flex-inner {
+.arrow__fle__inner {
     display: flex;
     align-items: center;
 }
 
-.arrow__flex-inner span {
+.arrow__flex__inner span {
     color: #2563EB;
     padding-right: 16px;
 }
@@ -197,7 +197,7 @@ i.fa+input {
 
 
 
-.section__tools-flex {
+.section__inner {
     display: flex;
     justify-content: space-between;
     gap: 80px;
