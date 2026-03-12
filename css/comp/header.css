@@ -1,4 +1,4 @@
-.header_inner{
+.header__inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,7 +7,7 @@
     
 }
 
-.header_list{
+.header__list{
     display: flex;
     gap: 27px;
 }
@@ -15,7 +15,7 @@
     
 
 
-    .header_link a{
+    .header__link a{
         font-family: 'Roboto';
         font-weight: medium;
        
@@ -26,10 +26,10 @@
       
     }
 
-.header_link{
+.header__link{
     transition: color .2s linear;
 }
-    .header_link:hover{
+    .header__link:hover{
         &:hover {
                 color: #2563EB;
             }

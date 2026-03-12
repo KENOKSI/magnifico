@@ -135,7 +135,21 @@ i.fa+input {
 
 .block__text__inner button {
     margin-left: 15px;
-    ;
+        display: flex;
+font-size: 16px;
+    border: none;
+    background: #2563EB;
+    color: rgb(255, 255, 255);
+    padding: 12px 36px 12px 12px;
+    border-radius: 8px;
+    align-items: center;
+    font-family: 'Roboto-med';
+    transition: transform 0.4s ease;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 
 .hero__text {
@@ -146,7 +160,7 @@ i.fa+input {
     padding-bottom: 24px;
 }
 
-.enjoi__inner {
+.card__inner {
     display: flex;
     justify-content: space-between;
     gap: 80px;
@@ -154,7 +168,7 @@ i.fa+input {
 
 }
 
-.enjoi__content .enjoi__text {
+.card__content .card__text {
     color: #475569;
     font-weight: 400;
     max-width: 600px;
@@ -162,13 +176,13 @@ i.fa+input {
    margin-bottom: 24px;
 }
 
-.enjoi__content .enjoi__title {
+.card__content .card__title {
     font-family: 'Roboto-b';
     font-size: 72px;
     
 }
 
-.section__enjoi {
+.section__card {
     margin-top: 80px;
 
 
@@ -176,18 +190,18 @@ i.fa+input {
 
 .enjoi__content {}
 
-.section__enjoi img {
+.section__card img {
     max-width: 100%;
     height: auto;
 
 }
 
-.arrow__fle__inner {
+.arrow__inner {
     display: flex;
     align-items: center;
 }
 
-.arrow__flex__inner span {
+.arrow__inner span {
     color: #2563EB;
     padding-right: 16px;
 }
@@ -247,12 +261,12 @@ i.fa+input {
 
 
 
-.banner-card {
+.banner__card {
     margin-top: 80px;
 }
 
 
-.banner-card .conteiner {
+.banner__card .conteiner {
     background-image: url('../../img/Sectio.png');
 
     background-position: center;
@@ -268,11 +282,11 @@ i.fa+input {
 
 }
 
-.banner-inner {
+.banner__inner {
     max-width: 500px;
 }
 
-.banner-title {
+.banner__title {
     font-size: 42px;
     line-height: 1.1;
     margin: 0 0 20px 0;
@@ -280,7 +294,7 @@ i.fa+input {
     font-weight: 700;
 }
 
-.banner-text {
+.banner__text {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 30px;
@@ -288,7 +302,7 @@ i.fa+input {
     opacity: 0.9;
 }
 
-.banner-btn {
+.banner__btn {
     color: #ffffff;
     text-decoration: none;
     font-weight: 600;
@@ -348,7 +362,7 @@ i.fa+input {
 
 
 @media (max-width:428px) {
-    .header_link {
+    .header__link {
         display: none;
     }
     #bth{
@@ -362,7 +376,7 @@ i.fa+input {
         margin-top: 0;
     }
 
-    .hero__block-text h1 {
+    .hero__content h1 {
         font-size: 50px;
     }
 
@@ -378,7 +392,7 @@ i.fa+input {
         margin-right: -31px;
     }
 
-    .section__hero-flex {
+    .block-text-inner {
 
         flex-direction: column;
     }
@@ -386,20 +400,20 @@ i.fa+input {
 
 
 
-    .section__enjoi-flex {
+    .section__card {
 
         flex-direction: column-reverse;
 
     }
 
-    .enjoi__block-text h1 {
+    .card__content h1 {
 
         font-size: 61px;
     }
 
 
 
-    .tools__block-text h1 {
+    .card__content h1 {
         font-family: 'Roboto-b';
         font-size: 47px;
 
@@ -411,7 +425,7 @@ i.fa+input {
 
 
 
-    .section__tools-flex {
+    .card__inner{
         display: flex;
         justify-content: space-between;
         gap: 80px;
@@ -420,17 +434,17 @@ i.fa+input {
 
     }
 
-    .banner-title {
+    .banner__title {
         font-size: 32px;
         ;
     }
 
 
-    .banner-text {
+    .banner__text {
         font-size: 13px;
     }
 
-    .banner-btn {
+    .banner__btn {
 
         font-size: 15px;
 
@@ -441,11 +455,11 @@ i.fa+input {
         flex-direction: column;
     }
 
-    .footer-left {
+    .footer__left {
         padding-bottom: 10px;
     }
 
-    .footer-right a {
+    .footer__right a {
         margin-left: 3px;
         margin-right: 8px;
 
@@ -463,3 +477,4 @@ i.fa+input {
         font-size: 1px;
     }
 }
+
