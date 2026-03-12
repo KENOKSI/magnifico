@@ -17,7 +17,11 @@
     text-decoration: none;
     color: #4b5563;
     margin-left: 20px;
-    
+    &:hover{
+        color: rgb(28, 28, 255);
+    }
 
 }
+
+
 

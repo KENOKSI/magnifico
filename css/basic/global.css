@@ -5,6 +5,7 @@ html {
 ::selection{
     
     background: rgb(255, 105, 105);
+
 }
 
 
@@ -348,6 +349,9 @@ i.fa+input {
 
 @media (max-width:428px) {
     .header_link {
+        display: none;
+    }
+    #bth{
         display: none;
     }
 
