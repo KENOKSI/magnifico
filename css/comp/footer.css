@@ -25,3 +25,32 @@
 
 
 
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    .footer__right {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .footer__right a {
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        font-size: 13px;
+    }
+    
+    .footer__right {
+        gap: 12px;
+    }
+}
