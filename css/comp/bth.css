@@ -1,4 +1,4 @@
-.header__bth{
+.bth{
     display: flex;
 font-size: 16px;
     border: none;
@@ -17,9 +17,9 @@ font-size: 16px;
 
 }
 
-.header__bth img {
+.bth img {
     position: relative;
-    left: 20px;
+    left: 15px;
     font-family: 'Roboto-med';
 
 }
