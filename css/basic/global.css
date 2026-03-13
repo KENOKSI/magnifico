@@ -2,8 +2,8 @@ html {
     box-sizing: border-box;
 }
 
-::selection{
-    
+::selection {
+
     background: rgb(255, 105, 105);
 
 }
@@ -79,7 +79,7 @@ img {
 .hero__title {
     font-family: 'Roboto-b';
     font-size: 72px;
-   
+
 }
 
 .hero__inner {
@@ -127,16 +127,16 @@ i.fa+input {
 }
 
 .block__text__inner i {
-    
+
     padding-left: 10px;
 
 
 }
 
-.block__text__inner button {
+.block__text__inner .bth {
     margin-left: 15px;
-        display: flex;
-font-size: 16px;
+    display: flex;
+    font-size: 16px;
     border: none;
     background: #2563EB;
     color: rgb(255, 255, 255);
@@ -173,13 +173,13 @@ font-size: 16px;
     font-weight: 400;
     max-width: 600px;
     margin-top: 24px;
-   margin-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 .card__content .card__title {
     font-family: 'Roboto-b';
     font-size: 72px;
-    
+
 }
 
 .section__card {
@@ -306,46 +306,109 @@ font-size: 16px;
 
 
 
-
-
-
-
-
-
-
-
-@media (max-width:1043px) {
-
-
-    input {
-
-        padding: 11px 140px 12px 16px;
+@media(max-width:1300px) {
+    .header__inner {
+        gap: 40px;
     }
 
 
+    .card__inner {
+        gap: 90px;
+    }
 }
 
-@media (max-width:1025px) {
-    input {
+@media(max-width:1250) {
+    .header__inner {
+        gap: 50px;
+    }
 
-        padding: 11px 137px 12px 16px;
+
+    .card__inner {
+        gap: 30px;
+    }
+
+    .hero__inner {
+        gap: 40px;
+    }
+}
+
+@media (max-width:1150) {
+    .header__inner {
+        gap: 50px;
+    }
+
+
+    .card__inner {
+        gap: 30px;
+    }
+
+    .hero__inner {
+        gap: 20px;
+    }
+}
+
+@media(max-width:1100px) {
+    .hero__title {
+        font-size: 55px;
+    }
+
+    .card__content .card__title {
+        font-size: 55px;
+    }
+
+    input {
+        padding: 12px 88px 12px 16px;
+
+    }
+
+
+
+    .banner__title {
+        font-size: 36px;
+
     }
 }
 
 
-@media (max-width:1019px) {
-    input {
+@media (max-width:1090){
+    .hero__inner{
+        gap: 0;
+    }
+  input {
+        padding: 12px 65px 12px 16px;
 
-        padding: 11px 136px 12px 16px;
     }
 }
+
+@media(max-width:1000px){
+    input {
+        padding: 12px 30px 12px 16px;
+
+    }
+
+
+
+
+    .block__text__inner .bth {
+
+
+    font-size: 14px;
+ 
+}
+
+}
+
+
+
+
 
 
 @media (max-width:428px) {
     .header__link {
         display: none;
     }
-    #bth{
+
+    #bth {
         display: none;
     }
 
@@ -405,7 +468,7 @@ font-size: 16px;
 
 
 
-    .card__inner{
+    .card__inner {
         display: flex;
         justify-content: space-between;
         gap: 80px;
@@ -444,17 +507,9 @@ font-size: 16px;
         margin-right: 8px;
 
     }
+
     .block-text-inner i {
-    padding-top: 19px;
-    
-}
-}
+        padding-top: 19px;
 
-
-
-@media (min-width:1000px) {
-    h1 {
-        font-size: 1px;
     }
 }
-
