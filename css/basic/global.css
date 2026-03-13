@@ -23,6 +23,7 @@ html {
 body {
     color: #0F172A;
     font-family: "Roboto-med", sans-serif;
+overflow-x: hidden;
 
 }
 
@@ -300,6 +301,7 @@ i.fa+input {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -323,9 +325,19 @@ i.fa+input {
 @media(max-width:1250) {
     .header__inner {
         gap: 50px;
+=======
+@media (max-width: 1300px) {
+    .header__inner {
+        gap: 40px;
+    }
+    .card__inner {
+        gap: 90px;
+>>>>>>> 027c140 (почти сделал адаптив)
     }
 
+  
 
+<<<<<<< HEAD
     .card__inner {
         gap: 30px;
     }
@@ -369,10 +381,71 @@ i.fa+input {
     .banner__title {
         font-size: 36px;
 
+=======
+ 
+}
+
+@media (max-width: 1250px) {
+    
+
+    .header__inner {
+        gap: 50px;
+    }
+    .card__inner {
+        gap: 30px;
+    }
+    .hero__inner {
+        gap: 40px;
+    }
+}
+@media (max-width: 1150px) {
+    .header__inner {
+        gap: 50px;
+    }
+    .card__inner {
+        gap: 30px;
+    }
+    .hero__inner {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .hero__title {
+        font-size: 55px;
+    }
+    .card__content .card__title {
+        font-size: 55px;
+    }
+    input {
+        padding: 12px 88px 12px 16px;
+    }
+    .banner__title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 1090px) {
+    .hero__inner {
+        gap: 0;
+    }
+    input {
+        padding: 12px 65px 12px 16px;
+    }
+}
+
+@media (max-width: 1000px) {
+    input {
+        padding: 12px 30px 12px 16px;
+    }
+    .block__text__inner .bth {
+        font-size: 14px;
+>>>>>>> 027c140 (почти сделал адаптив)
     }
 }
 
 
+<<<<<<< HEAD
 @media (max-width:1090){
     .hero__inner{
         gap: 0;
@@ -546,10 +619,177 @@ i.fa+input {
     
     .footer__right a {
         margin: 0;
+=======
+
+
+@media (max-width: 1024px) {
+    .hero__title,
+    .card__content .card__title {
+        font-size: 48px;
+    }
+    
+    .hero__inner {
+        gap: 40px;
+    }
+    
+    .card__inner {
+        gap: 40px;
+    }
+    
+    .hero__content {
+        max-width: 500px;
+>>>>>>> 027c140 (почти сделал адаптив)
     }
 }
 
 
+<<<<<<< HEAD
+=======
+@media (max-width: 900px) {
+    .hero__inner {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero__content {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+    
+    .hero__title {
+        font-size: 42px;
+    }
+    
+    .hero__text {
+        max-width: 100%;
+    }
+    
+    .block__text__inner {
+        justify-content: center;
+    }
+    
+    .hero__block-image img {
+        max-width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .card__inner {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    
+    .header__list {
+        display: none; 
+    }
+    
+    .header__inner {
+        padding-bottom: 15px;
+    }
+    
+
+    .card__inner {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .card__inner:first-of-type {
+        flex-direction: column-reverse; 
+    }
+    
+    .card__content {
+        max-width: 100%;
+    }
+    
+    .card__content .card__text {
+        max-width: 100%;
+    }
+    
+    .arrow__inner {
+        justify-content: center;
+    }
+    
+
+    .banner__card .conteiner {
+        background-position: center;
+        justify-content: center;
+        text-align: center;
+        padding: 40px 20px;
+        min-height: 350px;
+    }
+    
+    .banner__inner {
+        max-width: 100%;
+    }
+    
+    .banner__title {
+        font-size: 32px;
+    }
+  
+}
+
+
+@media (max-width: 600px) {
+   
+    .wrapper {
+        padding: 0 20px;
+    }
+    
+    h1, 
+    .hero__title, 
+    .card__content .card__title {
+        font-size: 36px !important;
+    }
+    
+    .hero__text, 
+    .card__text {
+        font-size: 15px;
+    }
+    
+    
+    .block__text__inner {
+        flex-wrap: wrap;
+    }
+    
+    .block__text__inner .bth {
+        margin-left: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    i.fa {
+        margin-right: -30px;
+    }
+    
+    input {
+        width: 100%;
+        padding: 12px 16px 12px 40px;
+    }
+    
+    /* Футер */
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .footer__right {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .footer__right a {
+        margin: 0;
+    }
+}
+
+
+>>>>>>> 027c140 (почти сделал адаптив)
 @media (max-width: 480px) {
     h1, 
     .hero__title, 
@@ -588,6 +828,7 @@ i.fa+input {
     .header__link {
         display: none;
     }
+<<<<<<< HEAD
 
     #bth {
         display: none;
@@ -694,3 +935,14 @@ i.fa+input {
 
     }
 }
+=======
+    
+    #bth {
+        display: none;
+    }
+}
+
+
+
+
+>>>>>>> 027c140 (почти сделал адаптив)
