@@ -305,87 +305,16 @@ i.fa+input {
 
 
 
-<<<<<<< HEAD
-
-
-
-
-
-
-@media(max-width:1300px) {
-    .header__inner {
-        gap: 40px;
-    }
-
-    .menu__icon{
-        display: none;
-    }
-
-    .card__inner {
-        gap: 90px;
-    }
-}
-
-@media(max-width:1250) {
-    .header__inner {
-        gap: 50px;
-=======
 @media (max-width: 1300px) {
     .header__inner {
         gap: 40px;
     }
     .card__inner {
         gap: 90px;
->>>>>>> 027c140 (почти сделал адаптив)
     }
 
   
 
-<<<<<<< HEAD
-    .card__inner {
-        gap: 30px;
-    }
-
-    .hero__inner {
-        gap: 40px;
-    }
-}
-
-@media (max-width:1150) {
-    .header__inner {
-        gap: 50px;
-    }
-
-
-    .card__inner {
-        gap: 30px;
-    }
-
-    .hero__inner {
-        gap: 20px;
-    }
-}
-
-@media(max-width:1100px) {
-    .hero__title {
-        font-size: 55px;
-    }
-
-    .card__content .card__title {
-        font-size: 55px;
-    }
-
-    input {
-        padding: 12px 88px 12px 16px;
-
-    }
-
-
-
-    .banner__title {
-        font-size: 36px;
-
-=======
  
 }
 
@@ -444,186 +373,10 @@ i.fa+input {
     }
     .block__text__inner .bth {
         font-size: 14px;
->>>>>>> 027c140 (почти сделал адаптив)
     }
 }
 
 
-<<<<<<< HEAD
-@media (max-width:1090){
-    .hero__inner{
-        gap: 0;
-    }
-  input {
-        padding: 12px 65px 12px 16px;
-
-    }
-}
-
-@media(max-width:1000px){
-    input {
-        padding: 12px 30px 12px 16px;
-
-    }
-
-
-
-
-    .block__text__inner .bth {
-
-
-    font-size: 14px;
- 
-}
-
-}
-
-
-
-
-
-
-@media (max-width: 900px) {
-    .hero__inner {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .hero__content {
-        max-width: 100%;
-        margin-top: 40px;
-    }
-    
-    .hero__title {
-        font-size: 42px;
-    }
-    
-    .hero__text {
-        max-width: 100%;
-    }
-    
-    .block__text__inner {
-        justify-content: center;
-    }
-    
-    .hero__block-image img {
-        max-width: 80%;
-        margin: 0 auto;
-        display: block;
-    }
-    
-    .card__inner {
-        gap: 30px;
-    }
-}
-
-@media (max-width: 768px) {
-    
-    
-    .header__list {
-        display: none; 
-    }
-    
-    .header__inner {
-        padding-bottom: 15px;
-    }
-    
-
-    .card__inner {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .card__inner:first-of-type {
-        flex-direction: column-reverse; 
-    }
-    
-    .card__content {
-        max-width: 100%;
-    }
-    
-    .card__content .card__text {
-        max-width: 100%;
-    }
-    
-    .arrow__inner {
-        justify-content: center;
-    }
-    
-
-    .banner__card .conteiner {
-        background-position: center;
-        justify-content: center;
-        text-align: center;
-        padding: 40px 20px;
-        min-height: 350px;
-    }
-    
-    .banner__inner {
-        max-width: 100%;
-    }
-    
-    .banner__title {
-        font-size: 32px;
-    }
-  
-}
-
-
-@media (max-width: 600px) {
-   
-    .wrapper {
-        padding: 0 20px;
-    }
-    
-    h1, 
-    .hero__title, 
-    .card__content .card__title {
-        font-size: 36px !important;
-    }
-    
-    .hero__text, 
-    .card__text {
-        font-size: 15px;
-    }
-    
-    
-    .block__text__inner {
-        flex-wrap: wrap;
-    }
-    
-    .block__text__inner .bth {
-        margin-left: 0;
-        width: 100%;
-        justify-content: center;
-    }
-    
-    i.fa {
-        margin-right: -30px;
-    }
-    
-    input {
-        width: 100%;
-        padding: 12px 16px 12px 40px;
-    }
-    
-    /* Футер */
-    .footer {
-        flex-direction: column;
-        gap: 20px;
-        text-align: center;
-    }
-    
-    .footer__right {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
-    
-    .footer__right a {
-        margin: 0;
-=======
 
 
 @media (max-width: 1024px) {
@@ -642,13 +395,10 @@ i.fa+input {
     
     .hero__content {
         max-width: 500px;
->>>>>>> 027c140 (почти сделал адаптив)
     }
 }
 
 
-<<<<<<< HEAD
-=======
 @media (max-width: 900px) {
     .hero__inner {
         flex-direction: column;
@@ -795,7 +545,6 @@ i.fa+input {
 }
 
 
->>>>>>> 027c140 (почти сделал адаптив)
 @media (max-width: 480px) {
     h1, 
     .hero__title, 
@@ -835,114 +584,6 @@ i.fa+input {
     .header__link {
         display: none;
     }
-<<<<<<< HEAD
-
-    #bth {
-        display: none;
-    }
-
-    .hero__block-image {}
-
-    .hero__block-text {
-        max-width: 361px;
-        margin-top: 0;
-    }
-
-    .hero__content h1 {
-        font-size: 50px;
-    }
-
-    .section__hero {
-        margin-top: 0;
-    }
-
-    input {
-        padding: 11px 0px 12px 16px;
-    }
-
-    i.fa {
-        margin-right: -31px;
-    }
-
-    .block-text-inner {
-
-        flex-direction: column;
-    }
-
-
-
-
-    .section__card {
-
-        flex-direction: column-reverse;
-
-    }
-
-    .card__content h1 {
-
-        font-size: 61px;
-    }
-
-
-
-    .card__content h1 {
-        font-family: 'Roboto-b';
-        font-size: 47px;
-
-
-
-
-
-    }
-
-
-
-    .card__inner {
-        display: flex;
-        justify-content: space-between;
-        gap: 80px;
-        align-items: center;
-        flex-direction: column;
-
-    }
-
-    .banner__title {
-        font-size: 32px;
-        ;
-    }
-
-
-    .banner__text {
-        font-size: 13px;
-    }
-
-    .banner__btn {
-
-        font-size: 15px;
-
-    }
-
-    .footer {
-
-        flex-direction: column;
-    }
-
-    .footer__left {
-        padding-bottom: 10px;
-    }
-
-    .footer__right a {
-        margin-left: 3px;
-        margin-right: 8px;
-
-    }
-
-    .block-text-inner i {
-        padding-top: 19px;
-
-    }
-}
-=======
     
     #bth {
         display: none;
@@ -956,4 +597,3 @@ i.fa+input {
 
 
 
->>>>>>> 027c140 (почти сделал адаптив)
